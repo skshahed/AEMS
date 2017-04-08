@@ -13,11 +13,16 @@
  <div id="header"></div>  <!-- end of header-->
  <div id="navmenu" >
  
- 	<?php
-	
-		include 'header.php';	
-	?>
-	
+ 	<ul>
+		 <li><b><a href="index.html">Home</a></b></li>
+		  <li><b><a href="information.html">Information</a></b></li>
+					<li><b><a href="service.html">Service</a></b></li>
+					<li><b><a href="gallery.html">Gallery</a></b></li>
+					<li><b><a href="contact.html">Contact Us</a></b></li>
+					<li><b><a href="about.html">About Us</a></b></li>
+            		<li><b><a href="login.html"> Log In </a></b></li>
+					<li><b><a href="faq.html">FAQs</a></b></li>
+		  </ul>
     
 </div>
     
@@ -58,8 +63,10 @@ We have already implemented PDA and SMS based application in some of our valued 
 HostHighlihgts is a Hosting and IT solution provider company executed by a group of professional engaged in IT profession for several years. Established high quality and reliable server with Daily Backup option. Its cheapest but high traffic and reliable servers are already in maintenance of numerous satisfied clients.
 <h3>Graphics and Multimedia</h3>
 We works on Graphics and Multimedia application by its experienced team of Graphics designers and Multimedia Developers and provide world class solution on Flash application, Animation, E Book, Digital Catalog, Brochure, Logo, Promotional Materials, Digital Profile, theme design and image processing.
-	<td></td>
-  </td></tr>  
+	
+  </td>
+	  <td></td>
+</tr>  
     <tr>
     	<td height="10px"></td>
     </tr>
@@ -71,11 +78,7 @@ We works on Graphics and Multimedia application by its experienced team of Graph
 	</div>	
 	
     <div id="footer">
-<?php
 
-	include 'footer.php';
-
-?>
 </div>
 
 
