@@ -13,11 +13,16 @@
  <div id="header"></div>  <!-- end of header-->
  <div id="navmenu" >
  
- 	<?php
-	
-		include 'header.php';	
-	?>
-	
+ 	<ul>
+		 <li><b><a href="index.php">Home</a></b></li>
+		  <li><b><a href="information.php">Information</a></b></li>
+					<li><b><a href="service.php">Service</a></b></li>
+					<li><b><a href="gallery.php">Gallery</a></b></li>
+					<li><b><a href="contact.php">Contact Us</a></b></li>
+					<li><b><a href="about.php">About Us</a></b></li>
+            		<li><b><a href="login.php"> Log In </a></b></li>
+					<li><b><a href="faq.php">FAQs</a></b></li>
+		  </ul>
     
 </div>
     
@@ -38,8 +43,8 @@
     	<td width="40px">&nbsp;</td>
     	<td  width="160px" align="center">
         	<a href="https://www.facebook.com/skshahedalam">
-        		<img src="img/shahed.jpg" width="120px" height="120px" style="border-radius:10px"/></td>
-            </a>
+        		<img src="img/shahed.jpg" width="120px" height="120px" style="border-radius:10px"/></a></td>
+            
     	<td></td>
         <td>
         	<i><b>Sk. Abu Shahed Alam </b></i><br />
@@ -105,11 +110,6 @@
 	</div>	
 	
     <div id="footer">
-<?php
-
-	include 'footer.php';
-
-?>
 </div>
 
 
