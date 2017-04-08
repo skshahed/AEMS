@@ -1,14 +1,3 @@
-<?php
-	session_start();
-	$f=0;
-	if(isset($_SESSION['error']))
-	{
-		$f=1;
-		$message=$_SESSION['error'];
-		unset($_SESSION['error']);
-	}
-?>
-
 
 <html>
 <head>
@@ -23,9 +12,16 @@
     <div id="midpart">
 		<div id="header"></div>
     	<div id="navmenu">
-        	<?php	
-					include 'header.php';
-			?>
+        	<ul>
+		 <li><b><a href="index.html">Home</a></b></li>
+		  <li><b><a href="information.html">Information</a></b></li>
+					<li><b><a href="service.html">Service</a></b></li>
+					<li><b><a href="gallery.html">Gallery</a></b></li>
+					<li><b><a href="contact.html">Contact Us</a></b></li>
+					<li><b><a href="about.html">About Us</a></b></li>
+            		<li><b><a href="login.html"> Log In </a></b></li>
+					<li><b><a href="faq.html">FAQs</a></b></li>
+		  </ul>
         </div>
     	<div id="bodypart">
 			
@@ -63,13 +59,7 @@
                 
    				<tr>
 					<td colspan="4" align="center">
-				<?php
-				if($f==1)
-				{
-					$f=0;
-					echo '<strong style="color:red; font-size:24px;">'.$message.'</strong>';
-				}
-				?></td>
+				</td>
   				</tr>
 				<tr>
 				
@@ -83,9 +73,7 @@
             
         </div>
     	<div id="footer">
-        	<?php	
-					include 'footer.php';
-			?>
+        	
         
         </div>
     </div>
