@@ -1,0 +1,50 @@
+<?php
+	session_start();
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AEMS</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+
+		<div id="header"></div>
+    	
+    	<div class="bodypart">
+        	
+        <div class="wrapper">
+  			<div class="menu">
+    			<?php	
+					include 'header.php';
+				?>
+ 
+    			<div class="circle">
+      				<ul>
+       				 	<li>Home</li>
+        				<li>Profile</li>
+        				<li>Manage Employee</li>
+        				<li>Permissions</li>
+                        <li>Announcement</li>
+        				<li>Projects</li>
+        				<li>Work Reports</li>
+        				<li>Log Out</li>
+      				</ul>
+    			</div>
+ 
+  			</div>
+		</div>
+        </div>
+    	<div id="footer">
+        	<?php	
+					include 'footer.php';
+			?>
+        </div>
+
+</body>
+</html>
